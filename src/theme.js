@@ -1,0 +1,45 @@
+module.exports = {
+  colors: {
+    primary: "#4527a0",
+    primaryLight: "#7953d2",
+    primaryDark: '#000070',
+    secondary: "#d81b60",
+    secondaryLight: '#ff5c8d',
+    secondaryDark: '#a00037',
+    // Grays
+    white: "#fff",
+    gray050: "#F3F5F8", // default "light" theme
+    gray100: "#EBEEF4",
+    gray200: "#CAD0DA",
+    gray300: "#BEC2CD",
+    gray400: "#9A9EAA",
+    gray500: "#757A87",
+    gray600: "#6A6E79",
+    gray700: "#3E4650",
+    gray800: "#2D3238", // default "dark" theme
+    gray900: "#1A1F27",
+    black: "#04070B",
+    // Symbolic
+    success: "#4FB050",
+    error: "#B10048",
+    warning: "#FF9200",
+    info: "#039BE5",
+    // Rainbow
+    pink: "#DA4F7A",
+    purple: "#9F4EB6",
+    deepPurple: "#7859BC",
+    indigo: "#5F6BBA",
+    blue: "#5EA3EF",
+    lightBlue: "#59B3F0",
+    cyan: "#5FC3D7",
+    teal: "#52A39A",
+    green: "#7BB972",
+    lightGreen: "#A6CA72",
+    lime: "#D6E06D",
+    yellow: "#FDEF72",
+    amber: "#F7CC50",
+    orange: "#F3AB47",
+    deepOrange: "#EE7850",
+    brown: "#886F65",
+  },
+};
