@@ -3,6 +3,7 @@ import { StyleSheet, View, TextInput } from 'react-native';
 import { SafeAreaView } from 'react-navigation';
 import axios from 'axios';
 
+import { TOKEN } from '../../config/config';
 import { colors } from '../theme';
 
 import Button from '../components/Button';
@@ -21,7 +22,7 @@ const NewTaskScreen = (props) => {
     try {
       await axios.post('http://localhost:8080/tasks', { description: newTask }, {
         headers: {
-          Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1Yzk4ZTRhNGNmMzgxZTM3NDE4MDFkZWIiLCJpYXQiOjE1NTUwODkyMzl9.BySygSeuXi41QdpBbS_iOOeEqevEjCbShCaseFhlpF4`
+          Authorization: `Bearer ${TOKEN}`
         }
       })
 

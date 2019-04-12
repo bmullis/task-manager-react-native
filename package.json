@@ -3,11 +3,12 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start": "env-cmd ./config/dev.env node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "env-cmd": "^8.0.2",
     "moment": "^2.24.0",
     "react": "16.8.3",
     "react-native": "0.59.4",
